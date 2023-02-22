@@ -1,26 +1,35 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Anton', sans-serif;  
 }
 .color-orange{
     color: orange;
 }
 h1{
     font-size: 40px;
-    font-weight: 20px; 
+    font-weight: bolder; 
+    line-height: .6;
 }
 .flexible-item{
-    display:flex;   
+    display:flex;
+}
+.light-grey{
+    background-color: rgb(255, 255, 255);
 }
 .half-width{
     width: 50%;
     text-align: left;
-    vertical-align: middle;
-}
+    }
+    .top-banar p{
+        padding: 0 0 30px 0;
+    }
 .top-banar img{
     width:70%;
 }
+.mid-banar p{
+    padding: 0 0 30px 0;
+}
 .mid-banar img{
-    width:50%;
+    width:40%;
     }
 .food-panda{
     text-decoration: none;
@@ -29,7 +38,7 @@ h1{
     text-align:center;
     border-radius: 30px;
     color: white;
-    margin-top: 100px;
+    border:100px;
 }
 .top-banar{
     margin:2%
@@ -37,3 +46,35 @@ h1{
 .mid-banar{
     background-image: url(images/shapes/7.png);
     }
+    div{
+        text-align: center;
+    }
+    .color-white{
+        background-color: aliceblue;
+    }
+    .one-third-width img{
+        width:100%
+    }
+.one-third-width{
+        width: 50%;
+        text-align: left;
+        padding:2%;
+        }
+        .white-border{
+        border: 20px solid white;
+        }
+      .follower{
+        text-align: center;
+       }
+       footer{
+        text-align:center;
+        padding: 30px 0 0 0;
+        background-color: black;
+        height:200px;
+        }
+       footer p{
+        color: white;
+       }
+       .gray{
+        color:rgb(199, 197, 197);
+       }
