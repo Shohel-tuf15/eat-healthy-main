@@ -65,6 +65,10 @@ h1{
         }
       .follower{
         text-align: center;
+        gap:80px;
+        padding-inline-start: 30%;
+        padding-inline-end: 30%;
+        padding-bottom: 20px;
        }
        footer{
         text-align:center;
