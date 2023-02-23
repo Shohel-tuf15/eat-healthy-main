@@ -1,84 +1,100 @@
-body{
-    font-family: 'Anton', sans-serif;  
+.first-banar h1{
+    font-size: 150px;
+    font-weight: bolder;
+    line-height: .6;
+}
+.first-banar{
+   text-align: left;
+    justify-content: center;
+    margin: 2%;
+   }
+.first-div{
+        width:50%;
+}
+.first-banar img{
+    width: 80%;
+    }
+.contact-information{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    margin-top: 80px;
+    background-image: linear-gradient(orange,red);
+    border-radius: 30px;
+    position: absolute;
+    }
+.second-banar{
+    background-image: url(images/shapes/7.png);
+    text-align: left;
+    justify-content: center;
+    }
+.second-div{
+    width:35%;
+    }
+.second-div p{
+    line-height: 1.6;
+    font-size: 50px;
+}
+.second-banar img{
+    width: 60%;
+    }
+.my-recipes h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.my-recipes p{
+    font-size: 20px;
+    line-height: 0.8;
+    margin: 30px;
+}
+.my-recipes{
+    text-align: center;
+    justify-content: center;
+}
+.recipe-title{
+    width: 100%;
+    margin: 2%;
+    gap:10px;
+    text-align: left;
+    border: 30px solid white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 60px rgb(240, 240, 240);
+}
+.recipe-title img{
+    width: 100%;
+}
+.flexible-item{
+    display:flex;
+    justify-content: center;
+    }
+.customer-review{
+    gap:100px;
+    border: 30px solid white;
+    box-shadow: 10px 10px 10px 40px rgb(240, 240, 240);
+    }
+.flexible-item h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.flexible-item p{
+    font-size: 19px;
+}
+footer h2{
+    font-size: 30px;
+    font-weight: 800;
 }
 .color-orange{
     color: orange;
 }
-h1{
-    font-size: 40px;
-    font-weight: bolder; 
-    line-height: .6;
+.color-gray{
+    color: gray;
 }
-.flexible-item{
-    display:flex;
-}
-.light-grey{
-    background-color: rgb(255, 255, 255);
-}
-.half-width{
-    width: 50%;
-    text-align: left;
-    }
-    .top-banar p{
-        padding: 0 0 30px 0;
-    }
-.top-banar img{
-    width:70%;
-}
-.mid-banar p{
-    padding: 0 0 30px 0;
-}
-.mid-banar img{
-    width:40%;
-    }
-.food-panda{
-    text-decoration: none;
-    background-image: linear-gradient(to right,orange,red);
-    padding: 15px 40px;
-    text-align:center;
-    border-radius: 30px;
+footer{
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    height: 200px;
     color: white;
-    border:100px;
+    padding: 20px 0 0 0;
 }
-.top-banar{
-    margin:2%
-}
-.mid-banar{
-    background-image: url(images/shapes/7.png);
-    }
-    div{
-        text-align: center;
-    }
-    .color-white{
-        background-color: aliceblue;
-    }
-    .one-third-width img{
-        width:100%
-    }
-.one-third-width{
-        width: 50%;
-        text-align: left;
-        padding:2%;
-        }
-        .white-border{
-        border: 20px solid white;
-        }
-      .follower{
-        text-align: center;
-        gap:80px;
-        padding-inline-start: 30%;
-        padding-inline-end: 30%;
-        padding-bottom: 20px;
-       }
-       footer{
-        text-align:center;
-        padding: 30px 0 0 0;
-        background-color: black;
-        height:200px;
-        }
-       footer p{
-        color: white;
-       }
-       .gray{
-        color:rgb(199, 197, 197);
-       }
